@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" fill="none">
+  <!-- Beach/Pavement Ground -->
+  <rect x="0" y="240" width="700" height="80" fill="#F9D7B4"/>
+  <line x1="0" y1="240" x2="700" y2="240" stroke="#CC771E" stroke-width="4"/>
+  
+  <!-- Concrete bench / Table -->
+  <rect x="220" y="190" width="260" height="60" rx="6" fill="#705B49" stroke="#FFFAF4" stroke-width="4"/>
+  <rect x="250" y="250" width="30" height="60" fill="#522C05"/>
+  <rect x="420" y="250" width="30" height="60" fill="#522C05"/>
+
+  <!-- Chessboard on table -->
+  <polygon points="260,195 440,195 450,215 250,215" fill="#FDEBD8" stroke="#522C05" stroke-width="3"/>
+  <rect x="330" y="182" width="40" height="20" fill="#24170D" rx="3"/>
+  
+  <!-- Left Player (Deep in Thought) -->
+  <g transform="translate(130, 110)">
+    <!-- Body -->
+    <path d="M40,130 L100,130 L95,70 C90,45 50,45 45,70 Z" fill="#954E05" stroke="#FFFAF4" stroke-width="4"/>
+    <!-- Head -->
+    <circle cx="70" cy="35" r="24" fill="#F5C38F" stroke="#FFFAF4" stroke-width="4"/>
+    <!-- Hair / Moustache -->
+    <path d="M48,25 C52,12 85,12 92,25" fill="#24170D"/>
+    <!-- Hand on chin -->
+    <path d="M70,55 L90,85 L80,105" stroke="#F5C38F" stroke-width="9" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Right Player (Reaching out to Move) -->
+  <g transform="translate(470, 110)">
+    <path d="M10,130 L70,130 L65,70 C60,45 20,45 15,70 Z" fill="#CC771E" stroke="#FFFAF4" stroke-width="4"/>
+    <circle cx="40" cy="35" r="24" fill="#F9D7B4" stroke="#FFFAF4" stroke-width="4"/>
+    <path d="M18,25 C22,12 55,12 62,25" fill="#24170D"/>
+    <!-- Extended Arm reaching to piece -->
+    <path d="M20,70 L-35,90" stroke="#F9D7B4" stroke-width="9" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Spectators in background -->
+  <g opacity="0.85">
+    <circle cx="210" cy="95" r="20" fill="#773E04" stroke="#FFFAF4" stroke-width="3"/>
+    <path d="M185,170 C185,125 235,125 235,170 Z" fill="#522C05"/>
+    <circle cx="490" cy="90" r="20" fill="#773E04" stroke="#FFFAF4" stroke-width="3"/>
+    <path d="M465,170 C465,120 515,120 515,170 Z" fill="#705B49"/>
+  </g>
+
+  <!-- Filter coffee tumbler on table -->
+  <rect x="235" y="180" width="14" height="22" rx="2" fill="#E59037" stroke="#FFFAF4" stroke-width="2"/>
+  <ellipse cx="242" cy="180" rx="7" ry="2" fill="#FDEBD8"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 480" fill="none">
+  <!-- Concrete Pavement / Adda Bench in Olive-Gold -->
+  <rect x="40" y="360" width="540" height="120" fill="#8B6B1E" stroke="#000" stroke-width="8"/>
+  
+  <!-- Chessboard in perspective on bench -->
+  <polygon points="120,380 480,380 520,440 80,440" fill="#F3EAD2" stroke="#000" stroke-width="6"/>
+  
+  <!-- Left Student Leaning in (Mustard Hoodie, Aviator Sunglasses) -->
+  <path d="M80,380 L160,260 C180,240 220,240 240,260 L280,380 Z" fill="#E8B73A" stroke="#000" stroke-width="8"/>
+  <circle cx="200" cy="200" r="45" fill="#D9808A" stroke="#000" stroke-width="6"/>
+  <!-- Aviator Sunglasses -->
+  <ellipse cx="185" cy="200" rx="16" ry="14" fill="#000" stroke="#FFF" stroke-width="2"/>
+  <ellipse cx="215" cy="200" rx="16" ry="14" fill="#000" stroke="#FFF" stroke-width="2"/>
+  <line x1="195" y1="195" x2="205" y2="195" stroke="#FFF" stroke-width="3"/>
+
+  <!-- Right Student Leaning in (Tangerine T-Shirt, Pixel Sunglasses) -->
+  <path d="M340,380 L380,260 C400,240 440,240 460,260 L540,380 Z" fill="#E8541E" stroke="#000" stroke-width="8"/>
+  <circle cx="420" cy="195" r="45" fill="#E59037" stroke="#000" stroke-width="6"/>
+  <!-- Pixel Sunglasses -->
+  <rect x="395" y="185" width="55" height="18" fill="#000" stroke="#FFF" stroke-width="2"/>
+  <rect x="400" y="190" width="18" height="8" fill="#2E8FA0"/>
+  <rect x="425" y="190" width="18" height="8" fill="#2E8FA0"/>
+
+  <!-- Center Spectator behind with Raised Fist / Excitement -->
+  <circle cx="310" cy="140" r="40" fill="#D9808A" stroke="#000" stroke-width="6"/>
+  <rect x="290" y="132" width="40" height="14" rx="3" fill="#000" stroke="#FFF" stroke-width="2"/>
+  <!-- Arm pointing to board -->
+  <path d="M290,260 L310,340" stroke="#D9808A" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Tumbler of Filter Coffee on edge of bench -->
+  <polygon points="530,370 550,370 545,410 535,410" fill="#E8B73A" stroke="#000" stroke-width="4"/>
+  <ellipse cx="540" cy="370" rx="10" ry="3" fill="#F3EAD2"/>
+</svg>

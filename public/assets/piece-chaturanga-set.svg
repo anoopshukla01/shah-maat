@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 220" fill="none">
+  <!-- Gaja (Elephant / Bishop) -->
+  <g transform="translate(40, 20)">
+    <rect x="0" y="0" width="100" height="170" rx="18" fill="#F9D7B4" stroke="#FFFAF4" stroke-width="4"/>
+    <path d="M25,140 L75,140 L70,80 C70,50 30,50 30,80 Z" fill="#954E05"/>
+    <circle cx="45" cy="70" r="4" fill="#FFFAF4"/>
+    <!-- Trunk & Tusk -->
+    <path d="M30,85 C20,95 20,120 30,125" stroke="#FFFAF4" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M40,92 L25,100" stroke="#FDEBD8" stroke-width="4" stroke-linecap="round"/>
+    <text x="50" y="162" text-anchor="middle" fill="#522C05" font-family="sans-serif" font-weight="bold" font-size="12">GAJA (🐘)</text>
+  </g>
+
+  <!-- Ashva (Horse / Knight) -->
+  <g transform="translate(160, 10)">
+    <rect x="0" y="0" width="100" height="180" rx="18" fill="#F5C38F" stroke="#FFFAF4" stroke-width="4"/>
+    <path d="M30,150 L75,150 L70,80 C68,45 35,40 28,65 C22,80 38,82 32,100 Z" fill="#773E04"/>
+    <circle cx="42" cy="62" r="3.5" fill="#FFFAF4"/>
+    <path d="M55,50 L68,60 M52,65 L66,75" stroke="#FDEBD8" stroke-width="3" stroke-linecap="round"/>
+    <text x="50" y="172" text-anchor="middle" fill="#522C05" font-family="sans-serif" font-weight="bold" font-size="12">ASHVA (🐎)</text>
+  </g>
+
+  <!-- Raja (King / Shah) -->
+  <g transform="translate(280, 0)">
+    <rect x="0" y="0" width="100" height="195" rx="18" fill="#E59037" stroke="#FFFAF4" stroke-width="4"/>
+    <!-- Crown & Robe -->
+    <path d="M25,160 L75,160 L70,85 L30,85 Z" fill="#522C05"/>
+    <circle cx="50" cy="70" r="16" fill="#954E05"/>
+    <!-- Crown spikes -->
+    <polygon points="36,60 42,42 50,52 58,42 64,60" fill="#FFFAF4"/>
+    <circle cx="50" cy="38" r="4" fill="#FFFAF4"/>
+    <text x="50" y="184" text-anchor="middle" fill="#24170D" font-family="sans-serif" font-weight="bold" font-size="12">RAJA (👑)</text>
+  </g>
+
+  <!-- Ratha (Chariot / Rook) -->
+  <g transform="translate(400, 15)">
+    <rect x="0" y="0" width="100" height="175" rx="18" fill="#F5C38F" stroke="#FFFAF4" stroke-width="4"/>
+    <rect x="25" y="85" width="50" height="65" rx="4" fill="#954E05"/>
+    <!-- Castle turrets -->
+    <rect x="25" y="70" width="12" height="18" fill="#773E04"/>
+    <rect x="44" y="70" width="12" height="18" fill="#773E04"/>
+    <rect x="63" y="70" width="12" height="18" fill="#773E04"/>
+    <circle cx="50" cy="115" r="12" fill="#522C05" stroke="#FFFAF4" stroke-width="3"/>
+    <text x="50" y="167" text-anchor="middle" fill="#522C05" font-family="sans-serif" font-weight="bold" font-size="12">RATHA (🏰)</text>
+  </g>
+
+  <!-- Padati (Foot Soldier / Pawn) -->
+  <g transform="translate(520, 30)">
+    <rect x="0" y="0" width="95" height="155" rx="18" fill="#F9D7B4" stroke="#FFFAF4" stroke-width="4"/>
+    <circle cx="47" cy="65" r="15" fill="#773E04"/>
+    <path d="M28,125 L67,125 L60,82 L35,82 Z" fill="#954E05"/>
+    <text x="47" y="148" text-anchor="middle" fill="#522C05" font-family="sans-serif" font-weight="bold" font-size="12">PADATI (♟)</text>
+  </g>
+</svg>

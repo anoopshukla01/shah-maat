@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <!-- Wooden Chassis -->
+  <rect x="40" y="90" width="520" height="300" rx="24" fill="#522C05" stroke="#24170D" stroke-width="8"/>
+  <rect x="52" y="102" width="496" height="276" rx="16" fill="#773E04"/>
+  <rect x="64" y="114" width="472" height="252" rx="12" fill="#954E05" stroke="#B35E05" stroke-width="4"/>
+  
+  <!-- Left Button (Toggled Up) -->
+  <g class="clock-btn-left">
+    <rect x="140" y="40" width="100" height="50" rx="8" fill="#B35E05" stroke="#24170D" stroke-width="6"/>
+    <rect x="150" y="46" width="80" height="12" rx="4" fill="#F5C38F"/>
+    <rect x="175" y="18" width="30" height="22" fill="#705B49"/>
+  </g>
+  
+  <!-- Right Button (Pressed Down) -->
+  <g class="clock-btn-right">
+    <rect x="360" y="65" width="100" height="35" rx="8" fill="#773E04" stroke="#24170D" stroke-width="6"/>
+    <rect x="370" y="70" width="80" height="8" rx="4" fill="#CC771E"/>
+  </g>
+  
+  <!-- Brass Screws & Badge -->
+  <circle cx="80" cy="130" r="6" fill="#F5C38F" stroke="#522C05" stroke-width="2"/>
+  <circle cx="520" cy="130" r="6" fill="#F5C38F" stroke="#522C05" stroke-width="2"/>
+  <rect x="250" y="110" width="100" height="24" rx="6" fill="#24170D"/>
+  <text x="300" y="126" text-anchor="middle" fill="#F9D7B4" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="2">SHAH-MAAT</text>
+
+  <!-- Left Dial -->
+  <g transform="translate(190, 245)">
+    <circle r="95" fill="#24170D"/>
+    <circle r="90" fill="#FFFAF4" stroke="#CC771E" stroke-width="4"/>
+    <circle r="82" fill="none" stroke="#705B49" stroke-width="1.5" stroke-dasharray="2 6"/>
+    <!-- Hour marks -->
+    <line x1="0" y1="-78" x2="0" y2="-65" stroke="#24170D" stroke-width="4"/>
+    <line x1="78" y1="0" x2="65" y2="0" stroke="#24170D" stroke-width="4"/>
+    <line x1="0" y1="78" x2="0" y2="65" stroke="#24170D" stroke-width="4"/>
+    <line x1="-78" y1="0" x2="-65" y2="0" stroke="#24170D" stroke-width="4"/>
+    <!-- Red Checkmate Flag -->
+    <polygon points="0,-75 24,-65 0,-55" fill="#C23B22"/>
+    <!-- Hands -->
+    <line x1="0" y1="12" x2="0" y2="-55" stroke="#24170D" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="12" x2="35" y2="-20" stroke="#B35E05" stroke-width="3.5" stroke-linecap="round"/>
+    <circle r="8" fill="#CC771E" stroke="#24170D" stroke-width="2"/>
+    <text x="0" y="45" text-anchor="middle" fill="#705B49" font-family="sans-serif" font-size="10" font-weight="bold">WHITE</text>
+  </g>
+
+  <!-- Right Dial -->
+  <g transform="translate(410, 245)">
+    <circle r="95" fill="#24170D"/>
+    <circle r="90" fill="#FFFAF4" stroke="#CC771E" stroke-width="4"/>
+    <circle r="82" fill="none" stroke="#705B49" stroke-width="1.5" stroke-dasharray="2 6"/>
+    <!-- Hour marks -->
+    <line x1="0" y1="-78" x2="0" y2="-65" stroke="#24170D" stroke-width="4"/>
+    <line x1="78" y1="0" x2="65" y2="0" stroke="#24170D" stroke-width="4"/>
+    <line x1="0" y1="78" x2="0" y2="65" stroke="#24170D" stroke-width="4"/>
+    <line x1="-78" y1="0" x2="-65" y2="0" stroke="#24170D" stroke-width="4"/>
+    <!-- Hands -->
+    <line x1="0" y1="12" x2="-40" y2="-30" stroke="#24170D" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="12" x2="20" y2="-50" stroke="#B35E05" stroke-width="3.5" stroke-linecap="round"/>
+    <circle r="8" fill="#CC771E" stroke="#24170D" stroke-width="2"/>
+    <text x="0" y="45" text-anchor="middle" fill="#705B49" font-family="sans-serif" font-size="10" font-weight="bold">BLACK</text>
+  </g>
+</svg>

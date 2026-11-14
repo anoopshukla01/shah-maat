@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" fill="none">
+  <!-- Golden Clouds in background -->
+  <path d="M120,120 Q180,60 260,100 Q340,50 400,110 Q450,80 500,120 Z" fill="#E8B73A" opacity="0.35"/>
+  <path d="M700,140 Q760,80 840,110 Q920,70 980,130 Z" fill="#E8B73A" opacity="0.35"/>
+
+  <!-- Gopuram Tiered Temple Tower Silhouette in Deep Forest Green #1B3828 -->
+  <g fill="#1B3828">
+    <!-- Base -->
+    <rect x="220" y="200" width="160" height="120"/>
+    <!-- Tiers tapering upwards -->
+    <polygon points="210,200 390,200 375,150 225,150"/>
+    <polygon points="225,150 375,150 360,100 240,100"/>
+    <polygon points="240,100 360,100 345,60 255,60"/>
+    <polygon points="255,60 345,60 330,30 270,30"/>
+    <!-- Kalasam Finials on top -->
+    <circle cx="280" cy="20" r="5"/>
+    <circle cx="300" cy="18" r="6"/>
+    <circle cx="320" cy="20" r="5"/>
+    
+    <!-- Entrance Archway -->
+    <path d="M280,320 L280,250 Q300,230 320,250 L320,320 Z" fill="#E8541E"/>
+  </g>
+
+  <!-- Coconut Palm Trees on Left and Right -->
+  <g stroke="#1B3828" stroke-width="12" stroke-linecap="round" fill="none">
+    <!-- Trunk 1 -->
+    <path d="M100,320 Q120,200 80,120"/>
+    <!-- Fronds -->
+    <path d="M80,120 Q30,100 10,140" stroke-width="6"/>
+    <path d="M80,120 Q40,60 10,80" stroke-width="6"/>
+    <path d="M80,120 Q90,40 120,60" stroke-width="6"/>
+    <path d="M80,120 Q130,80 150,110" stroke-width="6"/>
+    <path d="M80,120 Q110,140 130,170" stroke-width="6"/>
+
+    <!-- Trunk 2 on Right -->
+    <path d="M480,320 Q460,210 500,130"/>
+    <path d="M500,130 Q440,110 420,150" stroke-width="6"/>
+    <path d="M500,130 Q470,70 440,80" stroke-width="6"/>
+    <path d="M500,130 Q530,60 560,90" stroke-width="6"/>
+    <path d="M500,130 Q560,110 570,160" stroke-width="6"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" fill="none">
+  <!-- Steam curls -->
+  <path d="M100,50 C90,30 110,15 100,5" stroke="#E59037" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M125,55 C115,35 135,20 125,10" stroke="#E59037" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M145,50 C135,30 155,15 145,5" stroke="#E59037" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  
+  <!-- Davarah (Wide base saucer) -->
+  <ellipse cx="120" cy="225" rx="90" ry="32" fill="#B35E05" stroke="#FFFAF4" stroke-width="5"/>
+  <ellipse cx="120" cy="222" rx="82" ry="26" fill="#CC771E"/>
+  <ellipse cx="120" cy="220" rx="74" ry="20" fill="#954E05"/>
+  <ellipse cx="120" cy="218" rx="66" ry="16" fill="#522C05"/>
+  
+  <!-- Tumbler Cup -->
+  <path d="M75,90 L165,90 L150,210 L90,210 Z" fill="#CC771E" stroke="#FFFAF4" stroke-width="5"/>
+  <!-- Brass highlights -->
+  <path d="M85,95 L100,95 L106,205 L96,205 Z" fill="#F5C38F" opacity="0.7"/>
+  <!-- Frothy Coffee head -->
+  <ellipse cx="120" cy="90" rx="45" ry="12" fill="#F9D7B4" stroke="#B35E05" stroke-width="2"/>
+  <ellipse cx="120" cy="89" rx="38" ry="8" fill="#FDEBD8"/>
+  <circle cx="112" cy="88" r="3" fill="#B35E05" opacity="0.4"/>
+  <circle cx="126" cy="90" r="2.5" fill="#B35E05" opacity="0.4"/>
+  <circle cx="132" cy="87" r="2" fill="#B35E05" opacity="0.4"/>
+</svg>

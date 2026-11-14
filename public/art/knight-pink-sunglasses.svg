@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 520" fill="none">
+  <!-- Mane and Silhouette in vibrant Tangerine & Crimson -->
+  <path d="M100,500 L380,500 C370,420 350,320 340,240 C330,140 230,60 170,110 C130,140 150,180 120,220 C90,260 50,300 70,360 C80,390 120,380 130,410 C140,440 100,470 100,500 Z" fill="#E8541E" stroke="#000" stroke-width="10"/>
+  <!-- Mane Spikes -->
+  <path d="M260,80 L320,50 L310,120 L370,100 L350,180 L410,180 L370,250 L420,270 L360,340" stroke="#A71F2B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Nostril and Jaw in Mustard -->
+  <ellipse cx="90" cy="340" rx="12" ry="8" fill="#E8B73A" stroke="#000" stroke-width="4"/>
+  <path d="M80,360 C100,380 140,360 150,340" stroke="#000" stroke-width="6" fill="none"/>
+
+  <!-- Ornate Bridle Harness in Peacock Teal -->
+  <path d="M170,110 L90,340" stroke="#2E8FA0" stroke-width="10"/>
+  <path d="M160,230 L280,240" stroke="#2E8FA0" stroke-width="8"/>
+  <circle cx="160" cy="230" r="16" fill="#E8B73A" stroke="#000" stroke-width="4"/>
+
+  <!-- Vibrant Pink Sunglasses with White Glare -->
+  <g id="pink-sunglasses" transform="translate(110, 160) rotate(-15)">
+    <!-- Frame -->
+    <rect x="0" y="0" width="130" height="42" rx="10" fill="#B8235A" stroke="#000" stroke-width="6"/>
+    <!-- Left Lens -->
+    <ellipse cx="32" cy="21" rx="24" ry="15" fill="#D9808A" stroke="#000" stroke-width="3"/>
+    <!-- Right Lens -->
+    <ellipse cx="98" cy="21" rx="24" ry="15" fill="#D9808A" stroke="#000" stroke-width="3"/>
+    <!-- White Glare Lines -->
+    <line x1="20" y1="12" x2="35" y2="28" stroke="#FFF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="86" y1="12" x2="101" y2="28" stroke="#FFF" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-10" y="16" width="16" height="8" rx="2" fill="#B8235A"/>
+  </g>
+</svg>

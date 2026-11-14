@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" fill="none">
+  <!-- Mechanical split-flap housing -->
+  <rect x="10" y="10" width="880" height="140" rx="10" fill="#1E3A5F" stroke="#24170D" stroke-width="8"/>
+  <rect x="20" y="20" width="860" height="120" rx="6" fill="#12253B"/>
+  <line x1="20" y1="80" x2="880" y2="80" stroke="#24170D" stroke-width="3"/>
+  <!-- Status LED -->
+  <circle cx="45" cy="50" r="8" fill="#E59037"/>
+  <text x="70" y="56" fill="#F9D7B4" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="2">DEPARTURES // NEXT ROUNDS</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" fill="none" stroke="#FFFAF4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+  <!-- Fork arrow diagram -->
+  <path d="M50,140 L100,70 L150,140" stroke-dasharray="4 4"/>
+  <circle cx="100" cy="70" r="12" fill="#E59037"/>
+  <path d="M96,65 L104,75 M104,65 L96,75" stroke="#24170D"/>
+  <text x="100" y="105" text-anchor="middle" fill="#FFFAF4" font-family="sans-serif" font-size="12" font-weight="bold">FORK</text>
+  
+  <!-- Knight jump L curve -->
+  <path d="M200,60 L200,120 L240,120" stroke-width="3"/>
+  <polygon points="240,114 252,120 240,126" fill="#FFFAF4"/>
+  <circle cx="200" cy="60" r="5" fill="#E59037"/>
+  
+  <!-- Pinning ray -->
+  <line x1="40" y1="180" x2="260" y2="180" stroke-dasharray="6 6"/>
+  <text x="150" y="172" text-anchor="middle" fill="#F9D7B4" font-family="monospace" font-size="11">ABSOLUTE PIN</text>
+</svg>

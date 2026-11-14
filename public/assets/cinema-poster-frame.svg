@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 680" fill="none">
+  <!-- Outer Billboards Wood Frame -->
+  <rect x="10" y="10" width="480" height="660" rx="14" fill="#522C05" stroke="#24170D" stroke-width="12"/>
+  <rect x="24" y="24" width="452" height="632" fill="#C23B22" stroke="#E59037" stroke-width="6"/>
+  
+  <!-- Ornate Tamil Cinema Starbursts & Halftone Border -->
+  <g fill="#F5C38F">
+    <circle cx="45" cy="45" r="10"/>
+    <circle cx="455" cy="45" r="10"/>
+    <circle cx="45" cy="635" r="10"/>
+    <circle cx="455" cy="635" r="10"/>
+  </g>
+  
+  <!-- "NOW SHOWING" Banner -->
+  <rect x="130" y="44" width="240" height="42" rx="8" fill="#24170D" stroke="#FFFAF4" stroke-width="3"/>
+  <text x="250" y="72" text-anchor="middle" fill="#E59037" font-family="'Anton', 'Bebas Neue', Impact, sans-serif" font-size="24" font-weight="bold" letter-spacing="4">★ NOW SHOWING ★</text>
+  
+  <!-- Inner Poster Canvas -->
+  <rect x="46" y="104" width="408" height="530" fill="#24170D" rx="6"/>
+  
+  <!-- Huge Illustrated Knight Silhouette in Cinema Gold -->
+  <path d="M170,440 L340,440 L330,300 C325,230 250,210 230,260 C210,300 240,310 220,340 Z" fill="#E59037" stroke="#FFFAF4" stroke-width="6"/>
+  <circle cx="260" cy="255" r="8" fill="#24170D"/>
+  
+  <!-- Cinema Title Typography in Tamil Block / Retro Grotesque -->
+  <text x="250" y="170" text-anchor="middle" fill="#FFFAF4" font-family="'Anton', 'Bebas Neue', Impact, sans-serif" font-size="46" font-weight="900" letter-spacing="2">MONTHLY ARENA</text>
+  <text x="250" y="210" text-anchor="middle" fill="#F5C38F" font-family="serif" font-size="20" font-style="italic">The Grand Madras Showdown</text>
+  
+  <!-- Match Details Ribbon -->
+  <rect x="76" y="470" width="348" height="60" rx="8" fill="#773E04" stroke="#E59037" stroke-width="2"/>
+  <text x="250" y="496" text-anchor="middle" fill="#FFFAF4" font-family="sans-serif" font-size="14" font-weight="bold">BLITZ 3+2 • SWISS 7 ROUNDS</text>
+  <text x="250" y="518" text-anchor="middle" fill="#F9D7B4" font-family="sans-serif" font-size="13">EVERY THIRD SUNDAY • 7:30 PM IST</text>
+</svg>

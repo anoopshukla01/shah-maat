@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-mustard: #FFD23F;
+  --color-saffron: #FF7A1A;
+  --color-coral: #FF6B3D;
+  --color-crimson: #D81B28;
+  --color-maroon: #941A24;
+  --color-teal: #008E9B;
+  --color-forest: #1E7548;
+  --color-darkbrown: #FFF9ED;
+  --color-pink: #D81B28;
+  --color-black: #D81B28;
+  --color-cream: #FFF9ED;
+  --color-ink: #120B0C;
+  --color-white: #FFFFFF;
+}
+
+body {
+  background-color: #FFF9ED;
+  color: #120B0C;
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Tabular numerals for dates and times */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Halftone dot textures */
+.halftone-saffron {
+  background-color: #FF7A1A;
+  background-image: radial-gradient(rgba(18, 11, 12, 0.22) 15%, transparent 16%);
+  background-size: 13px 13px;
+}
+
+.halftone-coral {
+  background-color: #FF6B3D;
+  background-image: radial-gradient(rgba(18, 11, 12, 0.24) 16%, transparent 17%);
+  background-size: 13px 13px;
+}
+
+.halftone-mustard {
+  background-color: #FFD23F;
+  background-image: radial-gradient(rgba(18, 11, 12, 0.20) 15%, transparent 16%);
+  background-size: 13px 13px;
+}
+
+.halftone-crimson {
+  background-color: #D81B28;
+  background-image: radial-gradient(rgba(18, 11, 12, 0.25) 16%, transparent 17%);
+  background-size: 13px 13px;
+}
+
+.halftone-maroon {
+  background-color: #D81B28;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.2) 15%, transparent 16%);
+  background-size: 13px 13px;
+}
+
+.halftone-brown {
+  background-color: #FFF9ED;
+  background-image: radial-gradient(rgba(232, 165, 29, 0.25) 15%, transparent 16%);
+  background-size: 14px 14px;
+}
+
+/* Paper Grain Overlay */
+.paper-grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Retro Poster Headlines with ink outline & hard shadow */
+.retro-headline {
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+  -webkit-text-stroke: clamp(2px, 0.25vw, 4px) #120B0C;
+  text-shadow: 4px 4px 0px #120B0C, 6px 6px 0px rgba(18, 11, 12, 0.4);
+}
+
+.retro-headline-saffron {
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  color: #FF7A1A;
+  -webkit-text-stroke: clamp(2px, 0.25vw, 4px) #120B0C;
+  text-shadow: 4px 4px 0px #120B0C, 6px 6px 0px rgba(18, 11, 12, 0.4);
+}
+
+.retro-headline-mustard {
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  color: #FFD23F;
+  -webkit-text-stroke: clamp(2px, 0.25vw, 4px) #120B0C;
+  text-shadow: 4px 4px 0px #120B0C, 6px 6px 0px rgba(18, 11, 12, 0.4);
+}
+
+.retro-headline-crimson {
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  color: #D81B28;
+  -webkit-text-stroke: clamp(2px, 0.25vw, 4px) #120B0C;
+  text-shadow: 4px 4px 0px #120B0C, 6px 6px 0px rgba(18, 11, 12, 0.4);
+}
+
+/* Big Distressed Red Numerals */
+.distressed-numeral {
+  font-family: var(--font-anton), sans-serif;
+  color: #D81B28;
+  text-shadow: 5px 5px 0px #120B0C;
+}
+
+/* Outlined Large Display Typography (e.g., MAKE YOUR MOVE on /join) */
+.outlined-display-text {
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  -webkit-text-stroke: clamp(2px, 0.2vw, 4px) #120B0C;
+  text-shadow: 4px 4px 0px rgba(255, 210, 63, 0.9), 7px 7px 0px #120B0C;
+}
+
+/* Retro Card: crisp white fill, 3px ink border, 8px ink shadow, rotated, hover lift */
+.retro-card {
+  background-color: #FFFFFF;
+  border: 3px solid #120B0C;
+  box-shadow: 8px 8px 0px #120B0C;
+  transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.2s ease;
+}
+
+@media (min-width: 768px) {
+  .retro-card:hover {
+    transform: translateY(-4px) rotate(0deg) !important;
+    box-shadow: 10px 10px 0px #120B0C;
+  }
+}
+
+/* Retro Button: saturated fill, 3px ink border, 6px hard ink shadow, uppercase Anton, translate 4px */
+.retro-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  border: 3px solid #120B0C;
+  box-shadow: 6px 6px 0px #120B0C;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  user-select: none;
+}
+
+.retro-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 8px 8px 0px #120B0C;
+}
+
+.retro-btn:active {
+  transform: translate(4px, 4px) !important;
+  box-shadow: 2px 2px 0px #120B0C !important;
+}
+
+/* Badge Pill with ink border & hard shadow */
+.retro-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 2.5px solid #120B0C;
+  box-shadow: 3px 3px 0px #120B0C;
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+/* Sticker System: white outline + hard black offset shadow */
+.sticker {
+  filter: drop-shadow(3px 0 #fff) drop-shadow(-3px 0 #fff) drop-shadow(0 3px #fff) drop-shadow(0 -3px #fff) drop-shadow(8px 8px 0 #120B0C);
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (min-width: 768px) {
+  .sticker:hover {
+    transform: scale(1.03) rotate(0deg) !important;
+  }
+}
+
+/* Postage Stamp Border Effect */
+.postage-stamp {
+  border: 4px dashed #120B0C;
+  outline: 4px solid #F6EAD3;
+  box-shadow: 6px 6px 0px #120B0C;
+}
+
+/* Crimson Perforated Postage Stamp Mask (Archive Section - Reference Image 4) */
+.archive-postage-stamp {
+  background-color: #C8143C;
+  border: 4px solid #FFFFFF;
+  box-shadow: 10px 10px 0px #0B0B0B;
+  position: relative;
+  /* Perforated scalloped edges via radial-gradient background */
+  background-image: 
+    radial-gradient(circle at 0px 50%, #FF7A1A 6px, transparent 7px),
+    radial-gradient(circle at 100% 50%, #FF7A1A 6px, transparent 7px),
+    radial-gradient(circle at 50% 0px, #FF7A1A 6px, transparent 7px),
+    radial-gradient(circle at 50% 100%, #FF7A1A 6px, transparent 7px);
+  background-size: 100% 24px, 100% 24px, 24px 100%, 24px 100%;
+  background-repeat: repeat-y, repeat-y, repeat-x, repeat-x;
+}
+
+/* Authentic Scalloped Postage Stamp Border using radial-gradient holes on white matting */
+.postage-stamp-perforated {
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 10px;
+  box-shadow: 8px 8px 0px #0B0B0B;
+  filter: drop-shadow(0 0 0 #000);
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

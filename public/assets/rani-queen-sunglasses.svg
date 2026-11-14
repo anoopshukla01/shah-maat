@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 520" fill="none">
+  <!-- Royal Saree & Shoulders in Royal Blue & Magenta -->
+  <path d="M80,520 L120,340 C140,280 200,260 230,260 C260,260 320,280 340,340 L380,520 Z" fill="#B8235A" stroke="#000" stroke-width="9"/>
+  <!-- Zari Border in Mustard -->
+  <path d="M140,360 L230,520 L270,520 L180,350 Z" fill="#E8B73A" stroke="#000" stroke-width="4"/>
+
+  <!-- Royal Pearl Necklace -->
+  <path d="M190,310 C210,340 250,340 270,310" stroke="#F3EAD2" stroke-width="8" stroke-dasharray="10 8" fill="none"/>
+
+  <!-- Face & Ears -->
+  <ellipse cx="230" cy="210" rx="60" ry="70" fill="#E8B73A" stroke="#000" stroke-width="8"/>
+  <!-- Jhumka Earrings -->
+  <polygon points="160,220 170,250 150,250" fill="#E8B73A" stroke="#000" stroke-width="4"/>
+  <polygon points="300,220 310,250 290,250" fill="#E8B73A" stroke="#000" stroke-width="4"/>
+
+  <!-- Red Bindi -->
+  <circle cx="230" cy="170" r="6" fill="#A71F2B"/>
+
+  <!-- Pixel "Deal With It" Sunglasses -->
+  <g transform="translate(170, 185)">
+    <rect x="0" y="0" width="120" height="30" fill="#000" stroke="#FFF" stroke-width="3"/>
+    <rect x="8" y="6" width="46" height="18" fill="#1A0A3A"/>
+    <rect x="66" y="6" width="46" height="18" fill="#1A0A3A"/>
+    <rect x="12" y="10" width="6" height="6" fill="#FFF"/>
+    <rect x="20" y="14" width="6" height="6" fill="#FFF"/>
+    <rect x="70" y="10" width="6" height="6" fill="#FFF"/>
+    <rect x="78" y="14" width="6" height="6" fill="#FFF"/>
+  </g>
+
+  <!-- Ornate Golden Rani Crown / Mukut -->
+  <path d="M165,150 L180,80 L205,115 L230,60 L255,115 L280,80 L295,150 Z" fill="#E8B73A" stroke="#000" stroke-width="8"/>
+  <circle cx="230" cy="50" r="10" fill="#A71F2B" stroke="#000" stroke-width="3"/>
+  <circle cx="180" cy="72" r="7" fill="#2E8FA0" stroke="#000" stroke-width="3"/>
+  <circle cx="280" cy="72" r="7" fill="#2E8FA0" stroke="#000" stroke-width="3"/>
+</svg>
